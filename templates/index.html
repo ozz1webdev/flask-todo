@@ -17,7 +17,7 @@
             <td>Actions</td>
         
         {% for tasks in tasks %}
-            {% if tasks.length == 0 %}
+            {% if tasks.content|length == 0 %}
                 <h4 style="text-align: center;">There are no tasks. Create one below</h4>
             {% else %}
                 <tr>
