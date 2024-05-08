@@ -21,9 +21,9 @@
             <td>{{ tasks.completed }}</td>
             <td>{{ tasks.date_created }}</td>
             <td>
-                <a href="">Delete</a>
+                <a href="/delete/{{ tasks.id }}">Delete</a>
                 <br>
-                <a href="">Update</a>
+                <a href="/update/{{ tasks.id }}">Update</a>
             </td>
         </tr>
         {% endfor %}
