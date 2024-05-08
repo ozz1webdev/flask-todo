@@ -1,10 +1,28 @@
 {% extends 'base.html' %}
 
 {% block head %}
-    <h1>Head </h1>
+
 {% endblock %}
 
 
 {% block body %}
-    <h1>Body</h1>
+    <h1>My ToDo List </h1>
+    <table>
+        <tr>
+            <td>Task</td>
+            <td>Completed</td>
+            <td>Date Created</td>
+            <td>Actions</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <a href="">Delete</a>
+                <br>
+                <a href="">Update</a>
+            </td>
+        </tr>
+    </table>
 {% endblock %}
